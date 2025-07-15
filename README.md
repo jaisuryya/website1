@@ -1,2 +1,2 @@
 # Website
-Websites Developed by using CSS and HTML 
+Websites Developed by using HTML and CSS
