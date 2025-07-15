@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Memory Flip Card Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-header">
+        <h1>Memory Flip Card Game</h1>
+        <div class="game-info">
+            <div class="stats">
+                <div class="timer">Time: <span id="time-elapsed">0</span>s</div>
+                <div class="moves">Moves: <span id="moves-counter">0</span></div>
+            </div>
+            <div class="stars" id="star-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    
+    <section class="memory-game">
+        </section>
+
+    <div id="game-over-modal" class="modal">
+        <div class="modal-content">
+            <h2>Congratulations!</h2>
+            <p>You completed the game in <span id="final-moves">0</span> moves and <span id="final-time">0</span> seconds.</p>
+            <div class="modal-stars" id="modal-star-rating"></div>
+            <button id="restart-game-btn">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
